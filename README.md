@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="./assets/profile-banner.svg" alt="AI, Cloud and Data Engineering" width="100%" />
+
 # Hey, I'm Vemula Syam Prakash
 
 ### AI/ML Engineer | Python Developer | AWS Cloud | Data & Backend Systems
@@ -33,6 +35,12 @@ AWS architectures, ETL pipelines, SQL workflows, databases, APIs, deployment, mo
 
 ### Python & Backend Applications
 Flask REST APIs, full-stack applications, dashboards, reporting systems, distributed backend services, and automation-oriented tooling.
+
+<div align="center">
+
+<img src="./assets/engineering-flow.svg" alt="Engineering workflow from data and AI through APIs, cloud and observability" width="92%" />
+
+</div>
 
 ---
 
