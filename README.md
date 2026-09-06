@@ -10,12 +10,14 @@ I build practical, engineering-focused projects across **backend development, di
 
 A distributed URL-shortening system built with **Go, PostgreSQL, Redis, ClickHouse, Docker, Terraform, and AWS**.
 
+**Live Demo:** https://nanolink1.onrender.com
+
 **Highlights:**
 - Distributed URL creation and fast redirect resolution
 - Redis caching and Bloom-filter based fast rejection
 - Token-bucket rate limiting
 - Redis Streams for asynchronous analytics ingestion
-- ClickHouse analytics and Prometheus/Grafana observability
+- ClickHouse analytics architecture with graceful production disablement when no ClickHouse instance is attached
 - Docker Compose for local distributed deployment
 - Terraform-based AWS infrastructure design
 - Automated testing and Docker image builds through GitHub Actions
@@ -52,7 +54,7 @@ A distributed URL-shortening system built with **Go, PostgreSQL, Redis, ClickHou
 ## 📫 Connect
 
 - GitHub: [@shyamprakash534](https://github.com/shyamprakash534)
-- LinkedIn: [Shyam Prakash](https://www.linkedin.com/in/shyam-prakash/)
+- LinkedIn: [Shyam Prakash](https://www.linkedin.com/in/shyam-prakash-vemula-721029263/)
 
 ---
 
