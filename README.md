@@ -44,6 +44,17 @@ Flask REST APIs, full-stack applications, dashboards, reporting systems, distrib
 
 ---
 
+## GitHub Statistics
+
+<div align="center">
+
+<img height="180" src="https://github-readme-stats.vercel.app/api?username=shyamprakash534&show_icons=true&include_all_commits=true&count_private=false&hide_border=true&rank_icon=github" alt="Shyam Prakash's GitHub statistics" />
+<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shyamprakash534&layout=compact&langs_count=8&hide_border=true" alt="Shyam Prakash's top programming languages" />
+
+</div>
+
+---
+
 ## Featured Projects
 
 | Project | What it does | Core Stack | Links |
