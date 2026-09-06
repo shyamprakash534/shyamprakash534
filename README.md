@@ -48,8 +48,7 @@ Flask REST APIs, full-stack applications, dashboards, reporting systems, distrib
 
 <div align="center">
 
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=shyamprakash534&show_icons=true&include_all_commits=true&count_private=false&hide_border=true&rank_icon=github" alt="Shyam Prakash's GitHub statistics" />
-<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shyamprakash534&layout=compact&langs_count=8&hide_border=true" alt="Shyam Prakash's top programming languages" />
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=shyamprakash534&show_icons=true&include_all_commits=true&count_private=false&hide_border=true&rank_icon=github" alt="Shyam Prakash's GitHub statistics" />
 
 </div>
 
@@ -61,7 +60,6 @@ Flask REST APIs, full-stack applications, dashboards, reporting systems, distrib
 | --- | --- | --- | --- |
 | **NanoLink** | Distributed URL shortener with caching, rate limiting, analytics architecture, observability, and cloud infrastructure | Go, Gin, PostgreSQL, Redis, ClickHouse, Docker, Terraform | [Repo](https://github.com/shyamprakash534/nanolink1) · [Live](https://nanolink1.onrender.com) |
 | **AI Drug Recommendation & Dosage Prediction** | Full-stack ML application covering 5 medical conditions and 15 drugs; 94% model accuracy with explainability and safety rules | Python, Scikit-learn, Flask, SHAP, AWS | [Repo](https://github.com/shyamprakash534/drug-recommendation) · [Live](https://drug-recommendation-5uxr.onrender.com) |
-| **Customer Churn Prediction Dashboard** | Customer analytics, predictive modeling, Tableau dashboards, and AWS-based ETL architecture | Python, SQL, Scikit-learn, Tableau, AWS | [Repo](INSERT_LINK) |
 | **Shyam Thesis** | Academic/research work and technical documentation | Python, AI/ML, Research | [Repo](https://github.com/shyamprakash534/shyam-thesis) |
 
 ---
