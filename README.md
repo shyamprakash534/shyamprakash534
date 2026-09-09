@@ -21,7 +21,7 @@ Building practical AI applications, data-driven systems, APIs, and cloud solutio
 - MCA graduate with a **Statistics background**, combining quantitative analysis with software and application development.
 - Build practical **AI/ML applications** using Python, Scikit-learn, feature engineering, model evaluation, and explainability.
 - Work across **AWS cloud, REST APIs, databases, ETL workflows, backend systems, deployment, and monitoring**.
-- Currently strengthening my engineering portfolio through projects such as **NanoLink** and AI-powered applications, while remaining open to AI/ML, Python, cloud, data, backend, and open-source opportunities.
+- Currently strengthening my engineering portfolio through projects such as **NanoLink, CodeForge**, and AI-powered applications, while remaining open to AI/ML, Python, cloud, data, backend, and open-source opportunities.
 
 ---
 
@@ -35,6 +35,9 @@ AWS architectures, ETL pipelines, SQL workflows, databases, APIs, deployment, mo
 
 ### Python & Backend Applications
 Flask REST APIs, full-stack applications, dashboards, reporting systems, distributed backend services, and automation-oriented tooling.
+
+### Agentic AI & Developer Automation
+Multi-agent software engineering workflows, repository-aware coding agents, automated testing and repair loops, security controls, human approval gates, Git/GitHub automation, and production-oriented orchestration.
 
 <div align="center">
 
@@ -58,6 +61,7 @@ Flask REST APIs, full-stack applications, dashboards, reporting systems, distrib
 
 | Project | What it does | Core Stack | Links |
 | --- | --- | --- | --- |
+| **CodeForge** | Security-conscious autonomous software factory that turns software requests into a controlled plan → research → architecture → code → test → debug → review → security → approval → PR workflow | Python, LangGraph, FastAPI, Ollama, PostgreSQL, ChromaDB, Docker, GitHub Actions | [Repo](https://github.com/shyamprakash534/Codeforge) · [Live](https://codeforge-3l85.onrender.com) |
 | **NanoLink** | Distributed URL shortener with caching, rate limiting, analytics architecture, observability, and cloud infrastructure | Go, Gin, PostgreSQL, Redis, ClickHouse, Docker, Terraform | [Repo](https://github.com/shyamprakash534/nanolink1) · [Live](https://nanolink1.onrender.com) |
 | **AI Drug Recommendation & Dosage Prediction** | Full-stack ML application covering 5 medical conditions and 15 drugs; 94% model accuracy with explainability and safety rules | Python, Scikit-learn, Flask, SHAP, AWS | [Repo](https://github.com/shyamprakash534/drug-recommendation) · [Live](https://drug-recommendation-5uxr.onrender.com) |
 | **Shyam Thesis** | Academic/research work and technical documentation | Python, AI/ML, Research | [Repo](https://github.com/shyamprakash534/shyam-thesis) |
@@ -65,6 +69,17 @@ Flask REST APIs, full-stack applications, dashboards, reporting systems, distrib
 ---
 
 ## Engineering Highlights
+
+### CodeForge — Autonomous Software Factory
+
+- Designed a multi-agent engineering workflow with **Planner, Researcher, Architect, Coder, Tester, Debugger, Reviewer, and Security** stages.
+- Implemented **LangGraph-based orchestration** with conditional routing, bounded retries, and stateful workflow execution.
+- Added an autonomous **test → debug → recode → retest** repair loop rather than stopping at the first test failure.
+- Added repository-aware reasoning using **AST/source ingestion, hybrid retrieval, and optional ChromaDB**.
+- Implemented security controls including workspace confinement, shell/Git allow-lists, secret detection, dangerous-call checks, prompt-injection findings, timeouts, Docker sandboxing, and human approval gates.
+- Added **PostgreSQL and SQLite** database support plus Git/GitHub tooling for branch → commit → push → pull-request automation.
+- Exposed the system through **FastAPI, Streamlit, CLI, and a deployed Render web interface**.
+- Added observability/evaluation infrastructure, Docker Compose services, Prometheus/Grafana configuration, and GitHub Actions CI.
 
 ### NanoLink
 
@@ -92,8 +107,8 @@ Flask REST APIs, full-stack applications, dashboards, reporting systems, distrib
 **Programming**  
 Python • Go • SQL • JavaScript
 
-**AI / ML**  
-Scikit-learn • Random Forest • Gradient Boosting • Decision Trees • Predictive Modeling • SHAP
+**AI / ML / Agents**  
+Scikit-learn • Random Forest • Gradient Boosting • Decision Trees • Predictive Modeling • SHAP • LangGraph • Ollama • ChromaDB
 
 **Data**  
 Pandas • NumPy • MySQL • PostgreSQL • AWS Glue/Athena • ETL Architecture • Tableau • Matplotlib
@@ -102,7 +117,7 @@ Pandas • NumPy • MySQL • PostgreSQL • AWS Glue/Athena • ETL Architectu
 AWS S3 • EC2 • Lambda • RDS • IAM • CloudWatch • Elastic Beanstalk • SageMaker • Boto3
 
 **Backend / Web**  
-Flask • REST APIs • Gin • HTML/CSS • Jinja2
+FastAPI • Flask • REST APIs • Gin • Streamlit • HTML/CSS • Jinja2
 
 **DevOps / Tooling**  
 Docker • Terraform • GitHub Actions • Prometheus • Grafana • Git • GitHub • Render
@@ -111,9 +126,10 @@ Docker • Terraform • GitHub Actions • Prometheus • Grafana • Git • G
 
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
 ![Go](https://img.shields.io/badge/Go-00ADD8?logo=go&logoColor=white)
+![LangGraph](https://img.shields.io/badge/LangGraph-Agent_Orchestration-1C3C3C)
 ![AWS](https://img.shields.io/badge/AWS-232F3E?logo=amazonaws&logoColor=white)
 ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?logo=scikitlearn&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?logo=flask&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?logo=githubactions&logoColor=white)
@@ -138,7 +154,7 @@ Docker • Terraform • GitHub Actions • Prometheus • Grafana • Git • G
 - [ ] Strengthening AWS cloud architecture and deployment skills
 - [ ] Building data engineering and ETL workflows
 - [ ] Improving Docker, infrastructure, CI/CD, and observability skills
-- [ ] Exploring practical Agentic AI applications
+- [ ] Building practical Agentic AI systems and autonomous developer tools
 - [ ] Building and documenting projects publicly
 
 ---
@@ -148,6 +164,7 @@ Docker • Terraform • GitHub Actions • Prometheus • Grafana • Git • G
 - **Evidence over hype** — communicate measurable technical results where evidence exists.
 - **Practical AI** — use machine learning where it solves a real problem rather than adding AI for its own sake.
 - **Cloud-ready engineering** — consider deployment, monitoring, maintainability, and operational behavior.
+- **Controlled autonomy** — automate engineering work while keeping security controls, bounded retries, and human approval where appropriate.
 - **Clear documentation** — make projects understandable, reproducible, and useful to other developers.
 
 ---
@@ -161,6 +178,7 @@ I'm open to connecting on:
 - AWS / cloud engineering
 - Data engineering and analytics
 - AI-powered products
+- Agentic AI and developer automation
 - Hackathons and technical projects
 - Open-source collaboration
 
@@ -170,6 +188,7 @@ If you're building something technically interesting, feel free to connect or ex
 
 ## Explore My Work
 
+- **[CodeForge](https://github.com/shyamprakash534/Codeforge)** — Autonomous Software Factory
 - **[NanoLink](https://github.com/shyamprakash534/nanolink1)** — Distributed URL Shortener
 - **[AI Drug Recommendation](https://github.com/shyamprakash534/drug-recommendation)** — AI/ML Application
 - **[Shyam Thesis](https://github.com/shyamprakash534/shyam-thesis)** — Research / Academic Work
@@ -179,6 +198,6 @@ If you're building something technically interesting, feel free to connect or ex
 
 <div align="center">
 
-### I enjoy building practical AI, data, and cloud systems that turn complex technical workflows into useful products.
+### I enjoy building practical AI, data, cloud, and agentic systems that turn complex technical workflows into useful products.
 
 </div>
