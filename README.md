@@ -9,7 +9,7 @@
 Building practical AI applications, data-driven systems, APIs, and cloud solutions that turn complex technical problems into usable products.
 
 [![GitHub](https://img.shields.io/badge/GitHub-shyamprakash534-181717?logo=github)](https://github.com/shyamprakash534)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?logo=linkedin)](https://www.linkedin.com/in/shyam-prakash-vemula-721029263/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?logo=github)](https://www.linkedin.com/in/shyam-prakash-vemula-721029263/)
 [![Email](https://img.shields.io/badge/Email-Contact-EA4335?logo=gmail)](mailto:shyamprakash271@gmail.com)
 
 </div>
@@ -64,7 +64,6 @@ Multi-agent software engineering workflows, repository-aware coding agents, auto
 | **CodeForge** | Security-conscious autonomous software factory that turns software requests into a controlled plan → research → architecture → code → test → debug → review → security → approval → PR workflow | Python, LangGraph, FastAPI, Ollama, PostgreSQL, ChromaDB, Docker, GitHub Actions | [Repo](https://github.com/shyamprakash534/Codeforge) · [Live](https://codeforge-3l85.onrender.com) |
 | **NanoLink** | Distributed URL shortener with caching, rate limiting, analytics architecture, observability, and cloud infrastructure | Go, Gin, PostgreSQL, Redis, ClickHouse, Docker, Terraform | [Repo](https://github.com/shyamprakash534/nanolink1) · [Live](https://nanolink1.onrender.com) |
 | **AI Drug Recommendation & Dosage Prediction** | Full-stack ML application covering 5 medical conditions and 15 drugs; 94% model accuracy with explainability and safety rules | Python, Scikit-learn, Flask, SHAP, AWS | [Repo](https://github.com/shyamprakash534/drug-recommendation) · [Live](https://drug-recommendation-5uxr.onrender.com) |
-| **Shyam Thesis** | Academic/research work and technical documentation | Python, AI/ML, Research | [Repo](https://github.com/shyamprakash534/shyam-thesis) |
 
 ---
 
@@ -191,7 +190,6 @@ If you're building something technically interesting, feel free to connect or ex
 - **[CodeForge](https://github.com/shyamprakash534/Codeforge)** — Autonomous Software Factory
 - **[NanoLink](https://github.com/shyamprakash534/nanolink1)** — Distributed URL Shortener
 - **[AI Drug Recommendation](https://github.com/shyamprakash534/drug-recommendation)** — AI/ML Application
-- **[Shyam Thesis](https://github.com/shyamprakash534/shyam-thesis)** — Research / Academic Work
 - **[LinkedIn](https://www.linkedin.com/in/shyam-prakash-vemula-721029263/)** — Professional Profile
 
 ---
