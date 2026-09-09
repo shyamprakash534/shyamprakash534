@@ -21,7 +21,7 @@ Building practical AI applications, data-driven systems, APIs, and cloud solutio
 - MCA graduate with a **Statistics background**, combining quantitative analysis with software and application development.
 - Build practical **AI/ML applications** using Python, Scikit-learn, feature engineering, model evaluation, and explainability.
 - Work across **AWS cloud, REST APIs, databases, ETL workflows, backend systems, deployment, and monitoring**.
-- Currently strengthening my engineering portfolio through projects such as **NanoLink, CodeForge**, and AI-powered applications, while remaining open to AI/ML, Python, cloud, data, backend, and open-source opportunities.
+- Currently strengthening my engineering portfolio through projects such as **Grounded RAG, CodeForge, and NanoLink**, while remaining open to AI/ML, Python, cloud, data, backend, and open-source opportunities.
 
 ---
 
@@ -61,6 +61,7 @@ Multi-agent software engineering workflows, repository-aware coding agents, auto
 
 | Project | What it does | Core Stack | Links |
 | --- | --- | --- | --- |
+| **Grounded RAG** | Grounded retrieval-augmented generation application that ingests PDF/TXT/Markdown documents, retrieves relevant evidence, and produces source-grounded answers | Python, FastAPI, ChromaDB, Ollama, HTML/CSS, Render | [Repo](https://github.com/shyamprakash534/grounded-rag) · [Live](https://grounded-rag-oww5.onrender.com) |
 | **CodeForge** | Security-conscious autonomous software factory that turns software requests into a controlled plan → research → architecture → code → test → debug → review → security → approval → PR workflow | Python, LangGraph, FastAPI, Ollama, PostgreSQL, ChromaDB, Docker, GitHub Actions | [Repo](https://github.com/shyamprakash534/Codeforge) · [Live](https://codeforge-3l85.onrender.com) |
 | **NanoLink** | Distributed URL shortener with caching, rate limiting, analytics architecture, observability, and cloud infrastructure | Go, Gin, PostgreSQL, Redis, ClickHouse, Docker, Terraform | [Repo](https://github.com/shyamprakash534/nanolink1) · [Live](https://nanolink1.onrender.com) |
 | **AI Drug Recommendation & Dosage Prediction** | Full-stack ML application covering 5 medical conditions and 15 drugs; 94% model accuracy with explainability and safety rules | Python, Scikit-learn, Flask, SHAP, AWS | [Repo](https://github.com/shyamprakash534/drug-recommendation) · [Live](https://drug-recommendation-5uxr.onrender.com) |
@@ -68,6 +69,16 @@ Multi-agent software engineering workflows, repository-aware coding agents, auto
 ---
 
 ## Engineering Highlights
+
+### Grounded RAG — Document-Grounded AI
+
+- Built a FastAPI-based RAG application for **PDF, TXT, and Markdown document ingestion**.
+- Implemented **ChromaDB vector retrieval** with configurable source selection and grounded answer generation.
+- Added source-labelled evidence so answers can cite retrieved references such as **[S1], [S2]**.
+- Added configurable **Ollama or OpenAI-compatible cloud AI providers**.
+- Added API-key protection support for document and question endpoints.
+- Added automated tests, CI, responsive web UI, document library management, drag-and-drop upload, quick prompts, source panels, and copy-answer functionality.
+- Deployed the application as a live **Render web service**.
 
 ### CodeForge — Autonomous Software Factory
 
@@ -107,7 +118,7 @@ Multi-agent software engineering workflows, repository-aware coding agents, auto
 Python • Go • SQL • JavaScript
 
 **AI / ML / Agents**  
-Scikit-learn • Random Forest • Gradient Boosting • Decision Trees • Predictive Modeling • SHAP • LangGraph • Ollama • ChromaDB
+Scikit-learn • Random Forest • Gradient Boosting • Decision Trees • Predictive Modeling • SHAP • LangGraph • Ollama • ChromaDB • RAG
 
 **Data**  
 Pandas • NumPy • MySQL • PostgreSQL • AWS Glue/Athena • ETL Architecture • Tableau • Matplotlib
@@ -125,6 +136,7 @@ Docker • Terraform • GitHub Actions • Prometheus • Grafana • Git • G
 
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
 ![Go](https://img.shields.io/badge/Go-00ADD8?logo=go&logoColor=white)
+![RAG](https://img.shields.io/badge/RAG-Grounded_AI-6A5ACD)
 ![LangGraph](https://img.shields.io/badge/LangGraph-Agent_Orchestration-1C3C3C)
 ![AWS](https://img.shields.io/badge/AWS-232F3E?logo=amazonaws&logoColor=white)
 ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?logo=scikitlearn&logoColor=white)
@@ -187,6 +199,7 @@ If you're building something technically interesting, feel free to connect or ex
 
 ## Explore My Work
 
+- **[Grounded RAG](https://github.com/shyamprakash534/grounded-rag)** — Document-Grounded AI Application · [Live](https://grounded-rag-oww5.onrender.com)
 - **[CodeForge](https://github.com/shyamprakash534/Codeforge)** — Autonomous Software Factory
 - **[NanoLink](https://github.com/shyamprakash534/nanolink1)** — Distributed URL Shortener
 - **[AI Drug Recommendation](https://github.com/shyamprakash534/drug-recommendation)** — AI/ML Application
