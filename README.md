@@ -21,7 +21,7 @@ Building practical AI applications, data-driven systems, APIs, and cloud solutio
 - MCA graduate with a **Statistics background**, combining quantitative analysis with software and application development.
 - Build practical **AI/ML applications** using Python, Scikit-learn, feature engineering, model evaluation, and explainability.
 - Work across **AWS cloud, REST APIs, databases, ETL workflows, backend systems, deployment, and monitoring**.
-- Currently strengthening my engineering portfolio through projects such as **Grounded RAG, CodeForge, and NanoLink**, while remaining open to AI/ML, Python, cloud, data, backend, and open-source opportunities.
+- Currently strengthening my engineering portfolio through projects such as **Grounded RAG, CodeForge, NanoLink, and E-Commerce Analytics**, while remaining open to AI/ML, Python, cloud, data, backend, and open-source opportunities.
 
 ---
 
@@ -61,6 +61,7 @@ Multi-agent software engineering workflows, repository-aware coding agents, auto
 
 | Project | What it does | Core Stack | Links |
 | --- | --- | --- | --- |
+| **E-Commerce Analytics** | Executive sales, customer, product profitability and regional analytics dashboard with interactive filters and margin-leakage diagnostics | Python, Pandas, NumPy, Plotly, Streamlit, Power BI/DAX concepts, SQL | [Repo](https://github.com/shyamprakash534/shyamprakash534/tree/main/ecommerce-analytics-platform) |
 | **Grounded RAG** | Grounded retrieval-augmented generation application that ingests PDF/TXT/Markdown documents, retrieves relevant evidence, and produces source-grounded answers | Python, FastAPI, ChromaDB, Ollama, HTML/CSS, Render | [Repo](https://github.com/shyamprakash534/grounded-rag) · [Live](https://grounded-rag-oww5.onrender.com) |
 | **CodeForge** | Security-conscious autonomous software factory that turns software requests into a controlled plan → research → architecture → code → test → debug → review → security → approval → PR workflow | Python, LangGraph, FastAPI, Ollama, PostgreSQL, ChromaDB, Docker, GitHub Actions | [Repo](https://github.com/shyamprakash534/Codeforge) · [Live](https://codeforge-3l85.onrender.com) |
 | **NanoLink** | Distributed URL shortener with caching, rate limiting, analytics architecture, observability, and cloud infrastructure | Go, Gin, PostgreSQL, Redis, ClickHouse, Docker, Terraform | [Repo](https://github.com/shyamprakash534/nanolink1) · [Live](https://nanolink1.onrender.com) |
@@ -69,6 +70,14 @@ Multi-agent software engineering workflows, repository-aware coding agents, auto
 ---
 
 ## Engineering Highlights
+
+### E-Commerce Analytics — Sales, Customer & Profitability
+
+- Built a five-page executive analytics dashboard covering sales, profitability, customer value, product economics, and regional performance.
+- Implemented interactive filtering across region, category, customer segment, and date range.
+- Added MoM revenue growth, cumulative revenue/profit, discount-vs-margin diagnostics, Pareto customer analysis, buyer frequency, product profitability, and logistics analysis.
+- Structured the project around an order-line analytical grain and reusable revenue/profit/margin concepts.
+- Designed the application for reproducible deployment with deterministic synthetic data generation.
 
 ### Grounded RAG — Document-Grounded AI
 
@@ -121,7 +130,7 @@ Python • Go • SQL • JavaScript
 Scikit-learn • Random Forest • Gradient Boosting • Decision Trees • Predictive Modeling • SHAP • LangGraph • Ollama • ChromaDB • RAG
 
 **Data**  
-Pandas • NumPy • MySQL • PostgreSQL • AWS Glue/Athena • ETL Architecture • Tableau • Matplotlib
+Pandas • NumPy • MySQL • PostgreSQL • AWS Glue/Athena • ETL Architecture • Tableau • Matplotlib • Plotly
 
 **Cloud**  
 AWS S3 • EC2 • Lambda • RDS • IAM • CloudWatch • Elastic Beanstalk • SageMaker • Boto3
@@ -199,6 +208,7 @@ If you're building something technically interesting, feel free to connect or ex
 
 ## Explore My Work
 
+- **[E-Commerce Analytics](https://github.com/shyamprakash534/shyamprakash534/tree/main/ecommerce-analytics-platform)** — Sales, Customer & Profitability Analytics
 - **[Grounded RAG](https://github.com/shyamprakash534/grounded-rag)** — Document-Grounded AI Application · [Live](https://grounded-rag-oww5.onrender.com)
 - **[CodeForge](https://github.com/shyamprakash534/Codeforge)** — Autonomous Software Factory
 - **[NanoLink](https://github.com/shyamprakash534/nanolink1)** — Distributed URL Shortener
