@@ -21,7 +21,7 @@ Building practical AI applications, data-driven systems, APIs, and cloud solutio
 - MCA graduate with a **Statistics background**, combining quantitative analysis with software and application development.
 - Build practical **AI/ML applications** using Python, Scikit-learn, feature engineering, model evaluation, and explainability.
 - Work across **AWS cloud, REST APIs, databases, ETL workflows, backend systems, deployment, and monitoring**.
-- Currently strengthening my engineering portfolio through projects such as **Grounded RAG, CodeForge, NanoLink, and E-Commerce Analytics**, while remaining open to AI/ML, Python, cloud, data, backend, and open-source opportunities.
+- Currently strengthening my engineering portfolio through projects such as **Grounded RAG, CodeForge, NanoLink, E-Commerce Analytics, and an AWS E-Commerce Data Pipeline**, while remaining open to AI/ML, Python, cloud, data, backend, and open-source opportunities.
 
 ---
 
@@ -62,6 +62,7 @@ Multi-agent software engineering workflows, repository-aware coding agents, auto
 | Project | What it does | Core Stack | Links |
 | --- | --- | --- | --- |
 | **E-Commerce Analytics** | Executive sales, customer, product profitability and regional analytics dashboard with interactive filters and margin-leakage diagnostics | Python, Pandas, NumPy, Plotly, Streamlit, Power BI/DAX concepts, SQL | [Repo](https://github.com/shyamprakash534/shyamprakash534/tree/main/ecommerce-analytics-platform) |
+| **AWS E-Commerce Data Pipeline** | AWS-native analytics pipeline with raw/curated data zones, Glue ETL, Athena analytics, Terraform infrastructure, SQL validation, CI/CD, and a live Streamlit analytics interface | AWS S3, Glue, Athena, PySpark, Terraform, SQL, Python, Streamlit, GitHub Actions, Render | [Repo](https://github.com/shyamprakash534/shyamprakash534/tree/main/aws-ecommerce-data-pipeline) · [Live](https://aws-ecommerce-data-pipeline.onrender.com) |
 | **Grounded RAG** | Grounded retrieval-augmented generation application that ingests PDF/TXT/Markdown documents, retrieves relevant evidence, and produces source-grounded answers | Python, FastAPI, ChromaDB, Ollama, HTML/CSS, Render | [Repo](https://github.com/shyamprakash534/grounded-rag) · [Live](https://grounded-rag-oww5.onrender.com) |
 | **CodeForge** | Security-conscious autonomous software factory that turns software requests into a controlled plan → research → architecture → code → test → debug → review → security → approval → PR workflow | Python, LangGraph, FastAPI, Ollama, PostgreSQL, ChromaDB, Docker, GitHub Actions | [Repo](https://github.com/shyamprakash534/Codeforge) · [Live](https://codeforge-3l85.onrender.com) |
 | **NanoLink** | Distributed URL shortener with caching, rate limiting, analytics architecture, observability, and cloud infrastructure | Go, Gin, PostgreSQL, Redis, ClickHouse, Docker, Terraform | [Repo](https://github.com/shyamprakash534/nanolink1) · [Live](https://nanolink1.onrender.com) |
@@ -70,6 +71,17 @@ Multi-agent software engineering workflows, repository-aware coding agents, auto
 ---
 
 ## Engineering Highlights
+
+### AWS E-Commerce Data Pipeline — Cloud ETL & Analytics
+
+- Designed an AWS-native **raw → curated → analytics** data architecture using Amazon S3.
+- Built a **PySpark/AWS Glue ETL** workflow with data-quality validation and curated outputs.
+- Added **Amazon Athena SQL** for validation, analytical queries, and reusable views.
+- Defined cloud infrastructure as code with **Terraform**, including AWS provider configuration and pipeline resources.
+- Added **GitHub Actions CI** for automated validation and reproducible engineering workflows.
+- Documented architecture, security, cost considerations, and teardown procedures.
+- Added a clean **Streamlit input/output analytics interface** that loads validated repository outputs by default and supports CSV upload, metric selection, filters, interactive charts, processed-output inspection, and CSV download.
+- Deployed the portfolio-facing analytics interface as a **live Render web service**.
 
 ### E-Commerce Analytics — Sales, Customer & Profitability
 
@@ -139,7 +151,7 @@ AWS S3 • EC2 • Lambda • RDS • IAM • CloudWatch • Elastic Beanstalk �
 FastAPI • Flask • REST APIs • Gin • Streamlit • HTML/CSS • Jinja2
 
 **DevOps / Tooling**  
-Docker • Terraform • GitHub Actions • Prometheus • Grafana • Git • GitHub • Render
+Docker • Terraform • GitHub Actions • Git • GitHub • Render
 
 <div align="center">
 
@@ -209,6 +221,7 @@ If you're building something technically interesting, feel free to connect or ex
 ## Explore My Work
 
 - **[E-Commerce Analytics](https://github.com/shyamprakash534/shyamprakash534/tree/main/ecommerce-analytics-platform)** — Sales, Customer & Profitability Analytics
+- **[AWS E-Commerce Data Pipeline](https://github.com/shyamprakash534/shyamprakash534/tree/main/aws-ecommerce-data-pipeline)** — AWS Glue + S3 + Athena ETL & Analytics · [Live](https://aws-ecommerce-data-pipeline.onrender.com)
 - **[Grounded RAG](https://github.com/shyamprakash534/grounded-rag)** — Document-Grounded AI Application · [Live](https://grounded-rag-oww5.onrender.com)
 - **[CodeForge](https://github.com/shyamprakash534/Codeforge)** — Autonomous Software Factory
 - **[NanoLink](https://github.com/shyamprakash534/nanolink1)** — Distributed URL Shortener
