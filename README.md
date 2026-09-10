@@ -20,8 +20,8 @@ Building practical AI applications, data-driven systems, APIs, and cloud solutio
 
 - MCA graduate with a **Statistics background**, combining quantitative analysis with software and application development.
 - Build practical **AI/ML applications** using Python, Scikit-learn, feature engineering, model evaluation, and explainability.
-- Work across **AWS cloud, REST APIs, databases, ETL workflows, backend systems, deployment, and monitoring**.
-- Currently strengthening my engineering portfolio through projects such as **Grounded RAG, CodeForge, NanoLink, E-Commerce Analytics, and an AWS E-Commerce Data Pipeline**, while remaining open to AI/ML, Python, cloud, data, backend, and open-source opportunities.
+- Work across **AWS cloud, REST APIs, databases, ETL workflows, backend systems, deployment, monitoring, and analytics**.
+- Currently strengthening my engineering portfolio through projects such as **Grounded RAG, CodeForge, NanoLink, E-Commerce Analytics, and an AWS E-Commerce Data Pipeline**.
 
 ---
 
@@ -39,34 +39,53 @@ Flask REST APIs, full-stack applications, dashboards, reporting systems, distrib
 ### Agentic AI & Developer Automation
 Multi-agent software engineering workflows, repository-aware coding agents, automated testing and repair loops, security controls, human approval gates, Git/GitHub automation, and production-oriented orchestration.
 
-<div align="center">
-
-<img src="./assets/engineering-flow.svg" alt="Engineering workflow from data and AI through APIs, cloud and observability" width="92%" />
-
-</div>
-
----
-
-## GitHub Statistics
-
-<div align="center">
-
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=shyamprakash534&show_icons=true&include_all_commits=true&count_private=false&hide_border=true&rank_icon=github" alt="Shyam Prakash's GitHub statistics" />
-
-</div>
-
 ---
 
 ## Featured Projects
 
 | Project | What it does | Core Stack | Links |
 | --- | --- | --- | --- |
-| **E-Commerce Analytics** | Executive sales, customer, product profitability and regional analytics dashboard with interactive filters and margin-leakage diagnostics | Python, Pandas, NumPy, Plotly, Streamlit, Power BI/DAX concepts, SQL | [Repo](https://github.com/shyamprakash534/shyamprakash534/tree/main/ecommerce-analytics-platform) |
-| **AWS E-Commerce Data Pipeline** | AWS-native analytics pipeline with raw/curated data zones, Glue ETL, Athena analytics, Terraform infrastructure, SQL validation, CI/CD, and a live Streamlit analytics interface | AWS S3, Glue, Athena, PySpark, Terraform, SQL, Python, Streamlit, GitHub Actions, Render | [Repo](https://github.com/shyamprakash534/shyamprakash534/tree/main/aws-ecommerce-data-pipeline) · [Live](https://aws-ecommerce-data-pipeline.onrender.com) |
-| **Grounded RAG** | Grounded retrieval-augmented generation application that ingests PDF/TXT/Markdown documents, retrieves relevant evidence, and produces source-grounded answers | Python, FastAPI, ChromaDB, Ollama, HTML/CSS, Render | [Repo](https://github.com/shyamprakash534/grounded-rag) · [Live](https://grounded-rag-oww5.onrender.com) |
-| **CodeForge** | Security-conscious autonomous software factory that turns software requests into a controlled plan → research → architecture → code → test → debug → review → security → approval → PR workflow | Python, LangGraph, FastAPI, Ollama, PostgreSQL, ChromaDB, Docker, GitHub Actions | [Repo](https://github.com/shyamprakash534/Codeforge) · [Live](https://codeforge-3l85.onrender.com) |
-| **NanoLink** | Distributed URL shortener with caching, rate limiting, analytics architecture, observability, and cloud infrastructure | Go, Gin, PostgreSQL, Redis, ClickHouse, Docker, Terraform | [Repo](https://github.com/shyamprakash534/nanolink1) · [Live](https://nanolink1.onrender.com) |
-| **AI Drug Recommendation & Dosage Prediction** | Full-stack ML application covering 5 medical conditions and 15 drugs; 94% model accuracy with explainability and safety rules | Python, Scikit-learn, Flask, SHAP, AWS | [Repo](https://github.com/shyamprakash534/drug-recommendation) · [Live](https://drug-recommendation-5uxr.onrender.com) |
+| **E-Commerce Analytics** | Clean executive analytics dashboard for sales, profitability, customers, products, and regional performance with interactive input filters and clear output views | Python, Pandas, NumPy, Plotly, Streamlit, SQL, Power BI/DAX concepts | [Repo](https://github.com/shyamprakash534/shyamprakash534/tree/main/ecommerce-analytics-platform) · [Live Dashboard](https://ecommerce-analytics-platform-b342.onrender.com) |
+| **AWS E-Commerce Data Pipeline** | AWS-native analytics pipeline with raw/curated data zones, Glue ETL, Athena analytics, Terraform infrastructure, SQL validation, CI/CD, and a live analytics interface | AWS S3, Glue, Athena, PySpark, Terraform, SQL, Python, Streamlit, GitHub Actions, Render | [Repo](https://github.com/shyamprakash534/shyamprakash534/tree/main/aws-ecommerce-data-pipeline) · [Live](https://aws-ecommerce-data-pipeline.onrender.com) |
+| **Grounded RAG** | Document-grounded retrieval-augmented generation application | Python, FastAPI, ChromaDB, Ollama, HTML/CSS, Render | [Repo](https://github.com/shyamprakash534/grounded-rag) · [Live](https://grounded-rag-oww5.onrender.com) |
+| **CodeForge** | Security-conscious autonomous software factory for controlled plan → code → test → debug → review → security → PR workflows | Python, LangGraph, FastAPI, Ollama, PostgreSQL, ChromaDB, Docker, GitHub Actions | [Repo](https://github.com/shyamprakash534/Codeforge) · [Live](https://codeforge-3l85.onrender.com) |
+| **NanoLink** | Distributed URL shortener with caching, rate limiting, analytics architecture, and observability | Go, Gin, PostgreSQL, Redis, ClickHouse, Docker, Terraform | [Repo](https://github.com/shyamprakash534/nanolink1) · [Live](https://nanolink1.onrender.com) |
+| **AI Drug Recommendation & Dosage Prediction** | Full-stack ML application covering 5 medical conditions and 15 drugs | Python, Scikit-learn, Flask, SHAP, AWS | [Repo](https://github.com/shyamprakash534/drug-recommendation) · [Live](https://drug-recommendation-5uxr.onrender.com) |
+
+---
+
+## E-Commerce Analytics — Sales, Customer & Profitability
+
+A portfolio-grade **five-page interactive analytics dashboard** designed around a clear **Input → Analysis → Output** workflow.
+
+**Inputs**
+- Region
+- Category
+- Customer Segment
+- Start Date / End Date
+
+**Outputs**
+- Net Revenue
+- Net Profit
+- Profit Margin
+- Margin Leakage
+- Gross Sales and Discount Rate
+- Monthly revenue and profit trends
+- MoM revenue growth
+- Cumulative revenue/profit trajectory
+- Customer segment performance
+- Pareto customer spend distribution
+- Buyer frequency and retention distribution
+- Product and sub-category profitability
+- Regional financial performance
+- Shipping-mode / logistics analysis
+- Top states by revenue
+
+**Application stack:** Python, Pandas, NumPy, Plotly, Streamlit  
+**Deployment:** Render  
+**Source:** GitHub  
+**Dashboard:** [Open Live Dashboard](https://ecommerce-analytics-platform-b342.onrender.com)  
+**Project:** [Open Repository](https://github.com/shyamprakash534/shyamprakash534/tree/main/ecommerce-analytics-platform)
 
 ---
 
@@ -77,59 +96,38 @@ Multi-agent software engineering workflows, repository-aware coding agents, auto
 - Designed an AWS-native **raw → curated → analytics** data architecture using Amazon S3.
 - Built a **PySpark/AWS Glue ETL** workflow with data-quality validation and curated outputs.
 - Added **Amazon Athena SQL** for validation, analytical queries, and reusable views.
-- Defined cloud infrastructure as code with **Terraform**, including AWS provider configuration and pipeline resources.
+- Defined cloud infrastructure as code with **Terraform**.
 - Added **GitHub Actions CI** for automated validation and reproducible engineering workflows.
-- Documented architecture, security, cost considerations, and teardown procedures.
-- Added a clean **Streamlit input/output analytics interface** that loads validated repository outputs by default and supports CSV upload, metric selection, filters, interactive charts, processed-output inspection, and CSV download.
+- Added a clean **Streamlit input/output analytics interface** supporting CSV upload, metric selection, filters, interactive charts, processed-output inspection, and CSV download.
 - Deployed the portfolio-facing analytics interface as a **live Render web service**.
-
-### E-Commerce Analytics — Sales, Customer & Profitability
-
-- Built a five-page executive analytics dashboard covering sales, profitability, customer value, product economics, and regional performance.
-- Implemented interactive filtering across region, category, customer segment, and date range.
-- Added MoM revenue growth, cumulative revenue/profit, discount-vs-margin diagnostics, Pareto customer analysis, buyer frequency, product profitability, and logistics analysis.
-- Structured the project around an order-line analytical grain and reusable revenue/profit/margin concepts.
-- Designed the application for reproducible deployment with deterministic synthetic data generation.
 
 ### Grounded RAG — Document-Grounded AI
 
 - Built a FastAPI-based RAG application for **PDF, TXT, and Markdown document ingestion**.
 - Implemented **ChromaDB vector retrieval** with configurable source selection and grounded answer generation.
-- Added source-labelled evidence so answers can cite retrieved references such as **[S1], [S2]**.
-- Added configurable **Ollama or OpenAI-compatible cloud AI providers**.
-- Added API-key protection support for document and question endpoints.
-- Added automated tests, CI, responsive web UI, document library management, drag-and-drop upload, quick prompts, source panels, and copy-answer functionality.
-- Deployed the application as a live **Render web service**.
+- Added source-labelled evidence and configurable Ollama/OpenAI-compatible providers.
+- Added automated tests, CI, responsive web UI, document library management, and a live Render deployment.
 
 ### CodeForge — Autonomous Software Factory
 
 - Designed a multi-agent engineering workflow with **Planner, Researcher, Architect, Coder, Tester, Debugger, Reviewer, and Security** stages.
 - Implemented **LangGraph-based orchestration** with conditional routing, bounded retries, and stateful workflow execution.
-- Added an autonomous **test → debug → recode → retest** repair loop rather than stopping at the first test failure.
-- Added repository-aware reasoning using **AST/source ingestion, hybrid retrieval, and optional ChromaDB**.
-- Implemented security controls including workspace confinement, shell/Git allow-lists, secret detection, dangerous-call checks, prompt-injection findings, timeouts, Docker sandboxing, and human approval gates.
-- Added **PostgreSQL and SQLite** database support plus Git/GitHub tooling for branch → commit → push → pull-request automation.
-- Exposed the system through **FastAPI, Streamlit, CLI, and a deployed Render web interface**.
-- Added observability/evaluation infrastructure, Docker Compose services, Prometheus/Grafana configuration, and GitHub Actions CI.
+- Added an autonomous **test → debug → recode → retest** repair loop.
+- Added repository-aware reasoning, security controls, human approval gates, Git/GitHub automation, observability, Docker, and CI.
 
 ### NanoLink
 
 - Built a Go/Gin distributed URL-shortening service with REST APIs.
-- Implemented Redis caching and rate limiting for redirect traffic.
-- Used PostgreSQL for persistent URL metadata and Redis Streams for asynchronous analytics ingestion.
-- Designed ClickHouse-based analytics architecture for click and event workloads.
+- Implemented Redis caching and rate limiting.
+- Used PostgreSQL for persistence and designed ClickHouse analytics architecture.
 - Containerized the system with Docker and defined AWS infrastructure using Terraform.
-- Added Prometheus-compatible metrics, Grafana monitoring, automated tests, and GitHub Actions workflows.
 
 ### AI Drug Recommendation & Dosage Prediction
 
 - Engineered recommendations across **5 medical conditions and 15 drugs**.
 - Achieved **94% model accuracy** using Random Forest and Gradient Boosting.
-- Processed **941 patient records** with feature engineering and cross-validated evaluation using accuracy and F1-score.
-- Added **SHAP explainability** and **5 clinical safety override rules**.
-- Developed a Flask REST API with a responsive 5-screen interface, Matplotlib charts, PDF reporting, and session-based history.
-- Designed AWS architecture using Elastic Beanstalk, S3, RDS, IAM, SageMaker, and CloudWatch.
-- Authored a Springer-format technical paper documenting the methodology, evaluation, and results.
+- Added **SHAP explainability** and clinical safety override rules.
+- Developed a Flask REST API and responsive interface with AWS deployment architecture.
 
 ---
 
@@ -139,7 +137,7 @@ Multi-agent software engineering workflows, repository-aware coding agents, auto
 Python • Go • SQL • JavaScript
 
 **AI / ML / Agents**  
-Scikit-learn • Random Forest • Gradient Boosting • Decision Trees • Predictive Modeling • SHAP • LangGraph • Ollama • ChromaDB • RAG
+Scikit-learn • Random Forest • Gradient Boosting • SHAP • LangGraph • Ollama • ChromaDB • RAG
 
 **Data**  
 Pandas • NumPy • MySQL • PostgreSQL • AWS Glue/Athena • ETL Architecture • Tableau • Matplotlib • Plotly
@@ -152,21 +150,6 @@ FastAPI • Flask • REST APIs • Gin • Streamlit • HTML/CSS • Jinja2
 
 **DevOps / Tooling**  
 Docker • Terraform • GitHub Actions • Git • GitHub • Render
-
-<div align="center">
-
-![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
-![Go](https://img.shields.io/badge/Go-00ADD8?logo=go&logoColor=white)
-![RAG](https://img.shields.io/badge/RAG-Grounded_AI-6A5ACD)
-![LangGraph](https://img.shields.io/badge/LangGraph-Agent_Orchestration-1C3C3C)
-![AWS](https://img.shields.io/badge/AWS-232F3E?logo=amazonaws&logoColor=white)
-![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?logo=scikitlearn&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?logo=githubactions&logoColor=white)
-
-</div>
 
 ---
 
@@ -214,18 +197,16 @@ I'm open to connecting on:
 - Hackathons and technical projects
 - Open-source collaboration
 
-If you're building something technically interesting, feel free to connect or explore my repositories.
-
 ---
 
 ## Explore My Work
 
-- **[E-Commerce Analytics](https://github.com/shyamprakash534/shyamprakash534/tree/main/ecommerce-analytics-platform)** — Sales, Customer & Profitability Analytics
+- **[E-Commerce Analytics](https://github.com/shyamprakash534/shyamprakash534/tree/main/ecommerce-analytics-platform)** — Clean Sales, Customer & Profitability Dashboard · **[Live](https://ecommerce-analytics-platform-b342.onrender.com)**
 - **[AWS E-Commerce Data Pipeline](https://github.com/shyamprakash534/shyamprakash534/tree/main/aws-ecommerce-data-pipeline)** — AWS Glue + S3 + Athena ETL & Analytics · [Live](https://aws-ecommerce-data-pipeline.onrender.com)
 - **[Grounded RAG](https://github.com/shyamprakash534/grounded-rag)** — Document-Grounded AI Application · [Live](https://grounded-rag-oww5.onrender.com)
-- **[CodeForge](https://github.com/shyamprakash534/Codeforge)** — Autonomous Software Factory
-- **[NanoLink](https://github.com/shyamprakash534/nanolink1)** — Distributed URL Shortener
-- **[AI Drug Recommendation](https://github.com/shyamprakash534/drug-recommendation)** — AI/ML Application
+- **[CodeForge](https://github.com/shyamprakash534/Codeforge)** — Autonomous Software Factory · [Live](https://codeforge-3l85.onrender.com)
+- **[NanoLink](https://github.com/shyamprakash534/nanolink1)** — Distributed URL Shortener · [Live](https://nanolink1.onrender.com)
+- **[AI Drug Recommendation](https://github.com/shyamprakash534/drug-recommendation)** — AI/ML Application · [Live](https://drug-recommendation-5uxr.onrender.com)
 - **[LinkedIn](https://www.linkedin.com/in/shyam-prakash-vemula-721029263/)** — Professional Profile
 
 ---
