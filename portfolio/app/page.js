@@ -1,0 +1,22 @@
+const projects = [
+  ['CodeForge','Security-conscious multi-agent software engineering workflow with testing, repair, review and approval.','Python · LangGraph · FastAPI · Docker','https://github.com/shyamprakash534/Codeforge','https://codeforge-3l85.onrender.com'],
+  ['NanoLink','Distributed URL shortener with caching, rate limiting, analytics and observability.','Go · Gin · PostgreSQL · Redis · ClickHouse','https://github.com/shyamprakash534/nanolink1','https://nanolink1.onrender.com'],
+  ['Grounded RAG','Local-first document RAG with semantic retrieval and source-backed answers.','Python · FastAPI · ChromaDB · Ollama','https://github.com/shyamprakash534/grounded-rag','https://grounded-rag-oww5.onrender.com'],
+  ['AWS E-Commerce Data Pipeline','Raw-to-curated-to-analytics workflow using AWS data engineering patterns.','S3 · Glue · Athena · PySpark · Terraform','https://github.com/shyamprakash534/aws-ecommerce-data-pipeline','https://aws-ecommerce-data-pipeline.onrender.com'],
+  ['JobMatch AI','Resume parsing and source-first job matching with weighted relevance scoring.','Python · FastAPI · httpx · pypdf','https://github.com/shyamprakash534/ai-job-application-tracker','https://ai-job-application-tracker-o9vp.onrender.com'],
+  ['AI Drug Recommendation','End-to-end educational ML application with prediction and explainability.','Python · Scikit-learn · Flask · SHAP','https://github.com/shyamprakash534/drug-recommendation','https://drug-recommendation-5uxr.onrender.com']
+];
+
+const skills = ['Python','Go','SQL','AI/ML','GenAI & RAG','FastAPI','Flask','AWS','ETL & Data Engineering','PostgreSQL','Redis','Docker','Terraform','GitHub Actions','Scikit-learn','LangGraph'];
+
+export default function Home() {
+  return <main>
+    <nav className="nav"><a className="brand" href="#top">SP<span>.</span></a><div className="navlinks"><a href="#about">About</a><a href="#projects">Projects</a><a href="#skills">Skills</a><a href="#contact">Contact</a></div></nav>
+    <section className="hero" id="top"><div className="orb orb1"/><div className="orb orb2"/><div className="hero-inner"><p className="eyebrow">PYTHON · AI/ML · GENAI · BACKEND · CLOUD & DATA</p><h1>Vemula Syam<br/><em>Prakash.</em></h1><p className="lead">I build practical AI applications, backend systems, data pipelines, and cloud solutions that turn complex technical workflows into useful products.</p><div className="actions"><a className="btn primary" href="#projects">View Projects ↓</a><a className="btn" href="mailto:shyamprakash271@gmail.com">Contact Me</a></div><div className="social"><a href="https://github.com/shyamprakash534" target="_blank">GitHub ↗</a><a href="https://www.linkedin.com/in/shyam-prakash-vemula-721029263/" target="_blank">LinkedIn ↗</a></div></div></section>
+    <section className="section" id="about"><p className="label">01 — ABOUT</p><div className="two"><h2>Engineering with a<br/><span>practical mindset.</span></h2><div><p>MCA graduate with a Statistics background, combining quantitative thinking with software development.</p><p>I work across Python, AI/ML, GenAI, REST APIs, databases, ETL workflows, backend systems, deployment, monitoring, caching and analytics.</p><p className="muted">My approach: evidence over hype, useful AI over unnecessary AI, and systems that are reproducible and maintainable.</p></div></div></section>
+    <section className="section projects" id="projects"><p className="label">02 — SELECTED WORK</p><h2>Things I’ve <span>built.</span></h2><div className="grid">{projects.map(([name,desc,stack,repo,live],i)=><article className="card" key={name}><div className="number">0{i+1}</div><h3>{name}</h3><p>{desc}</p><div className="stack">{stack}</div><div className="links"><a href={repo} target="_blank">Repository ↗</a><a href={live} target="_blank">Live Demo ↗</a></div></article>)}</div></section>
+    <section className="section" id="skills"><p className="label">03 — TOOLKIT</p><h2>Built with <span>solid tools.</span></h2><div className="skills">{skills.map(s=><span key={s}>{s}</span>)}</div></section>
+    <section className="section contact" id="contact"><p className="label">04 — CONTACT</p><h2>Let’s build something<br/><span>useful.</span></h2><p>Open to Python, AI/ML, GenAI, backend, cloud and data engineering opportunities.</p><a className="btn primary" href="mailto:shyamprakash271@gmail.com">shyamprakash271@gmail.com ↗</a></section>
+    <footer>© 2026 Vemula Syam Prakash <span>•</span> Built with Next.js</footer>
+  </main>;
+}
