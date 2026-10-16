@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#090b11"/><stop offset="1" stop-color="#260b1a"/></linearGradient><linearGradient id="line" x1="0" x2="1"><stop stop-color="#7b3153"/><stop offset="1" stop-color="#d58aa9"/></linearGradient></defs>
+<rect width="1200" height="760" rx="24" fill="url(#bg)" stroke="#6f3a55"/>
+<text x="72" y="62" fill="#d78ba9" font-family="monospace" font-size="13" letter-spacing="4">02 · SELECTED WORK</text>
+<text x="72" y="112" fill="#f4e9ee" font-family="Georgia,serif" font-size="42">Projects I can</text>
+<text x="350" y="112" fill="#d78ba9" font-family="Georgia,serif" font-size="42" font-style="italic">explain end-to-end.</text>
+<line x1="72" y1="140" x2="1128" y2="140" stroke="url(#line)"/>
+<g transform="translate(72 176)">
+ <rect width="500" height="235" rx="18" fill="#0d0e15" stroke="#69354f"/>
+ <text x="26" y="42" fill="#d78ba9" font-family="monospace" font-size="12">01 · AGENTIC ENGINEERING</text>
+ <text x="26" y="82" fill="#f4e9ee" font-family="Georgia,serif" font-size="30">CodeForge</text>
+ <text x="26" y="116" fill="#aaa2aa" font-family="Arial,sans-serif" font-size="15">Multi-agent software workflow with</text>
+ <text x="26" y="140" fill="#aaa2aa" font-family="Arial,sans-serif" font-size="15">testing, repair, security and approval gates.</text>
+ <text x="26" y="180" fill="#f0c5d7" font-family="monospace" font-size="13">Python · LangGraph · FastAPI · Docker</text>
+ <text x="26" y="210" fill="#d78ba9" font-family="monospace" font-size="12">REPO  →  github.com/shyamprakash534/Codeforge</text>
+</g>
+<g transform="translate(628 176)">
+ <rect width="500" height="235" rx="18" fill="#0d0e15" stroke="#69354f"/>
+ <text x="26" y="42" fill="#d78ba9" font-family="monospace" font-size="12">02 · DISTRIBUTED SYSTEMS</text>
+ <text x="26" y="82" fill="#f4e9ee" font-family="Georgia,serif" font-size="30">NanoLink</text>
+ <text x="26" y="116" fill="#aaa2aa" font-family="Arial,sans-serif" font-size="15">URL shortener built around caching,</text>
+ <text x="26" y="140" fill="#aaa2aa" font-family="Arial,sans-serif" font-size="15">rate limiting and asynchronous analytics.</text>
+ <text x="26" y="180" fill="#f0c5d7" font-family="monospace" font-size="13">Go · Redis · PostgreSQL · ClickHouse</text>
+ <text x="26" y="210" fill="#d78ba9" font-family="monospace" font-size="12">REPO  →  github.com/shyamprakash534/nanolink1</text>
+</g>
+<g transform="translate(72 445)">
+ <rect width="500" height="235" rx="18" fill="#0d0e15" stroke="#69354f"/>
+ <text x="26" y="42" fill="#d78ba9" font-family="monospace" font-size="12">03 · GENAI</text>
+ <text x="26" y="82" fill="#f4e9ee" font-family="Georgia,serif" font-size="30">Grounded RAG</text>
+ <text x="26" y="116" fill="#aaa2aa" font-family="Arial,sans-serif" font-size="15">Local-first retrieval augmented generation</text>
+ <text x="26" y="140" fill="#aaa2aa" font-family="Arial,sans-serif" font-size="15">focused on source-backed responses.</text>
+ <text x="26" y="180" fill="#f0c5d7" font-family="monospace" font-size="13">Python · FastAPI · ChromaDB · Ollama</text>
+ <text x="26" y="210" fill="#d78ba9" font-family="monospace" font-size="12">REPO  →  github.com/shyamprakash534/grounded-rag</text>
+</g>
+<g transform="translate(628 445)">
+ <rect width="500" height="235" rx="18" fill="#0d0e15" stroke="#69354f"/>
+ <text x="26" y="42" fill="#d78ba9" font-family="monospace" font-size="12">04 · CLOUD DATA</text>
+ <text x="26" y="82" fill="#f4e9ee" font-family="Georgia,serif" font-size="30">AWS Data Pipeline</text>
+ <text x="26" y="116" fill="#aaa2aa" font-family="Arial,sans-serif" font-size="15">Raw → curated → analytics workflow using</text>
+ <text x="26" y="140" fill="#aaa2aa" font-family="Arial,sans-serif" font-size="15">AWS services, PySpark, SQL and Terraform.</text>
+ <text x="26" y="180" fill="#f0c5d7" font-family="monospace" font-size="13">S3 · Glue · Athena · PySpark · Terraform</text>
+ <text x="26" y="210" fill="#d78ba9" font-family="monospace" font-size="12">REPO  →  github.com/shyamprakash534/aws-ecommerce-data-pipeline</text>
+</g>
+</svg>
