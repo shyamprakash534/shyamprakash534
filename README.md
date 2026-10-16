@@ -143,7 +143,6 @@ Acharya Nagarjuna University
 - **AWS Certified Cloud Practitioner** — CLF-C02
 - **Oracle Agentic AI Foundations Associate**
 
-*Credential names are listed for visibility; use the issuing providers’ credential pages for verification.*
 
 ---
 
