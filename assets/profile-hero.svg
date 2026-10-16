@@ -1,33 +1,37 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="420" viewBox="0 0 1280 420" role="img" aria-labelledby="title desc">
-<title id="title">Vemula Syam Prakash — Software Developer, Python, AI/ML, Cloud and Data</title>
-<desc id="desc">Animated technical hero banner for Vemula Syam Prakash.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="430" viewBox="0 0 1280 430" role="img" aria-labelledby="title desc">
+<title id="title">Vemula Syam Prakash — Software Developer</title>
+<desc id="desc">A premium dark plum and rose developer banner highlighting Python, backend engineering, AI, cloud and data.</desc>
 <defs>
-  <linearGradient id="bg2" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#080b14"/><stop offset="0.52" stop-color="#121326"/><stop offset="1" stop-color="#07151a"/></linearGradient>
-  <linearGradient id="accent2" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#8b5cf6"/><stop offset="0.5" stop-color="#22d3ee"/><stop offset="1" stop-color="#34d399"/></linearGradient>
-  <radialGradient id="orb2"><stop offset="0" stop-color="#22d3ee" stop-opacity=".28"/><stop offset="1" stop-color="#22d3ee" stop-opacity="0"/></radialGradient>
-  <filter id="glow2"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
-  <pattern id="grid2" width="48" height="48" patternUnits="userSpaceOnUse"><path d="M48 0H0V48" fill="none" stroke="#94a3b8" stroke-opacity=".08"/></pattern>
-  <style>.pulse{animation:p 6s ease-in-out infinite}.dash{animation:d 9s linear infinite}@keyframes p{50%{opacity:.55;transform:translate(18px,-10px)}}@keyframes d{to{stroke-dashoffset:-420}}</style>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#08070b"/><stop offset=".55" stop-color="#180b16"/><stop offset="1" stop-color="#080c13"/></linearGradient>
+  <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#f0a6c5"/><stop offset=".52" stop-color="#c56b9b"/><stop offset="1" stop-color="#8b7cf6"/></linearGradient>
+  <radialGradient id="glow"><stop stop-color="#c56b9b" stop-opacity=".24"/><stop offset="1" stop-color="#c56b9b" stop-opacity="0"/></radialGradient>
+  <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse"><path d="M42 0H0V42" fill="none" stroke="#bda1b7" stroke-opacity=".075"/></pattern>
+  <filter id="soft"><feGaussianBlur stdDeviation="2.5"/></filter>
+  <style>.orbit{animation:orbit 10s linear infinite}.pulse{animation:pulse 5s ease-in-out infinite}@keyframes orbit{to{stroke-dashoffset:-360}}@keyframes pulse{50%{opacity:.48;transform:translateY(-7px)}}</style>
 </defs>
-<rect width="1280" height="420" rx="26" fill="url(#bg2)"/>
-<rect x="1" y="1" width="1278" height="418" rx="25" fill="url(#grid2)" stroke="#334155" stroke-opacity=".45"/>
-<circle class="pulse" cx="1040" cy="145" r="190" fill="url(#orb2)"/>
-<g fill="none" stroke="url(#accent2)" stroke-width="2.2" opacity=".72" filter="url(#glow2)">
-  <path class="dash" stroke-dasharray="18 14" d="M760 300 C850 210 900 275 975 185 S1110 80 1210 155"/>
-  <path d="M810 345 L895 260 L980 310 L1065 220 L1150 270 L1230 185" opacity=".38"/>
+<rect width="1280" height="430" rx="26" fill="url(#bg)"/>
+<rect x="1" y="1" width="1278" height="428" rx="25" fill="url(#grid)" stroke="#5b354d" stroke-opacity=".78"/>
+<circle cx="1020" cy="210" r="260" fill="url(#glow)"/>
+<g opacity=".9" fill="none" stroke="url(#accent)">
+  <path class="orbit" d="M730 352 C835 262 895 317 968 223 S1115 102 1220 162" stroke-width="2.5" stroke-dasharray="12 10"/>
+  <path d="M770 375 L890 278 L1000 330 L1102 228 L1195 266" stroke-opacity=".3" stroke-width="1.5"/>
+  <circle cx="890" cy="278" r="5" fill="#f0a6c5" stroke="none"/><circle cx="1102" cy="228" r="5" fill="#c56b9b" stroke="none"/><circle cx="1220" cy="162" r="5" fill="#8b7cf6" stroke="none"/>
 </g>
-<g fill="#67e8f9"><circle cx="895" cy="260" r="5"/><circle cx="1065" cy="220" r="5"/><circle cx="1210" cy="155" r="5"/></g>
+<g class="pulse" transform="translate(1020 82)" fill="none" stroke="#d78fb3" stroke-opacity=".72">
+  <circle cx="78" cy="78" r="58"/><circle cx="78" cy="78" r="34"/><circle cx="78" cy="78" r="8" fill="#d78fb3" fill-opacity=".2"/>
+  <path d="M78 0V22M78 134V156M0 78H22M134 78H156M23 23L39 39M117 117L133 133M117 39L133 23M23 133L39 117" stroke-width="2"/>
+</g>
 <g font-family="Inter,Segoe UI,Arial,sans-serif">
-  <text x="70" y="82" font-size="16" letter-spacing="4" fill="#67e8f9">SOFTWARE • AI/ML • CLOUD • DATA</text>
-  <text x="70" y="155" font-size="52" font-weight="750" fill="#f8fafc">Vemula Syam Prakash</text>
-  <text x="70" y="199" font-size="24" fill="#cbd5e1">Python Developer · AI/ML · Backend · AWS · Data Engineering</text>
-  <text x="70" y="248" font-size="17" fill="#94a3b8">MCA graduate building practical software, intelligent systems and reliable data workflows.</text>
-  <g transform="translate(70 300)">
-    <rect width="360" height="42" rx="21" fill="#0f172a" stroke="#334155"/>
-    <circle cx="22" cy="21" r="6" fill="#34d399"/><text x="40" y="27" font-size="15" fill="#dbeafe">Building • Learning • Shipping</text>
+  <text x="68" y="72" font-size="14" letter-spacing="4" fill="#e9a9c7">SOFTWARE ENGINEERING · AI · CLOUD · DATA</text>
+  <text x="64" y="151" font-size="49" font-weight="750" fill="#fbf4f8">Vemula Syam Prakash</text>
+  <rect x="68" y="178" width="610" height="2" rx="1" fill="url(#accent)"/>
+  <text x="68" y="224" font-size="23" font-weight="600" fill="#f3d9e7">Python · Backend · AI/ML &amp; GenAI · AWS · Data Engineering</text>
+  <text x="68" y="265" font-size="17" fill="#c5b7c2">MCA graduate building practical software, intelligent systems</text>
+  <text x="68" y="291" font-size="17" fill="#c5b7c2">and dependable data workflows — from implementation to deployment.</text>
+  <g transform="translate(68 331)">
+    <rect width="390" height="43" rx="21.5" fill="#170d18" stroke="#70435e"/>
+    <circle cx="23" cy="21.5" r="5" fill="#83ddb5"/>
+    <text x="39" y="27" font-size="14" fill="#f1dce8">Build thoughtfully  /  Learn deeply  /  Ship responsibly</text>
   </g>
-</g>
-<g transform="translate(1090 45)" fill="none" stroke="#67e8f9" opacity=".8">
-  <circle cx="65" cy="65" r="47"/><circle cx="65" cy="65" r="20"/><path d="M65 18V0M65 130V112M18 65H0M130 65H112M32 32L19 19M98 98L111 111M98 32L111 19M32 98L19 111" stroke-width="3"/>
 </g>
 </svg>
