@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="430" viewBox="0 0 1200 430">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#090b11"/><stop offset="0.55" stop-color="#180914"/><stop offset="1" stop-color="#300d20"/></linearGradient>
+  <linearGradient id="accent" x1="0" x2="1"><stop stop-color="#a63c69"/><stop offset="1" stop-color="#e7a2bf"/></linearGradient>
+  <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#ffffff" stroke-opacity=".035"/></pattern>
+</defs>
+<rect width="1200" height="430" rx="24" fill="url(#bg)" stroke="#6f3a55"/>
+<rect width="1200" height="430" rx="24" fill="url(#grid)"/>
+<text x="72" y="62" fill="#d78ba9" font-family="monospace" font-size="13" letter-spacing="4">01 · ABOUT</text>
+<text x="72" y="112" fill="#f4e9ee" font-family="Georgia,serif" font-size="42">Building systems that are</text>
+<text x="72" y="160" fill="url(#accent)" font-family="Georgia,serif" font-size="46" font-style="italic">useful, explainable and deployable.</text>
+<line x1="72" y1="190" x2="1128" y2="190" stroke="#8c4968"/>
+<text x="72" y="230" fill="#a9a1a8" font-family="Arial,sans-serif" font-size="17">MCA graduate focused on Python, backend engineering, AI/ML, cloud and data.</text>
+<text x="72" y="258" fill="#a9a1a8" font-family="Arial,sans-serif" font-size="17">I like taking projects from architecture → implementation → testing → deployment.</text>
+<g transform="translate(72 300)">
+ <rect width="320" height="82" rx="14" fill="#0d0e15" stroke="#69354f"/>
+ <text x="22" y="31" fill="#d78ba9" font-family="monospace" font-size="12" letter-spacing="2">FOCUS</text>
+ <text x="22" y="57" fill="#f4e9ee" font-family="Arial,sans-serif" font-size="16">Python · Backend · AI/ML</text>
+</g>
+<g transform="translate(420 300)">
+ <rect width="320" height="82" rx="14" fill="#0d0e15" stroke="#69354f"/>
+ <text x="22" y="31" fill="#d78ba9" font-family="monospace" font-size="12" letter-spacing="2">BUILDING</text>
+ <text x="22" y="57" fill="#f4e9ee" font-family="Arial,sans-serif" font-size="16">APIs · RAG · Data Pipelines</text>
+</g>
+<g transform="translate(768 300)">
+ <rect width="360" height="82" rx="14" fill="#0d0e15" stroke="#69354f"/>
+ <text x="22" y="31" fill="#d78ba9" font-family="monospace" font-size="12" letter-spacing="2">MINDSET</text>
+ <text x="22" y="57" fill="#f4e9ee" font-family="Arial,sans-serif" font-size="16">Evidence over hype.</text>
+</g>
+</svg>
